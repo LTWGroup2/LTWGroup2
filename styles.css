@@ -1,16 +1,43 @@
 .menu-links {
     display: none; /* Ẩn menu links ban đầu */
+    text-align: left;
 }
-
 .menu-links.active {
     display: block; /* Hiển thị menu links khi có lớp active */
+    text-align: left
 }
+.header{
+    text-align: center;
+}
+/* Reset default margin and padding */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
 header {
-    display: flex; /* Sử dụng flexbox để căn chỉnh các phần tử con */
-    align-items: center; /* Căn chỉnh các phần tử con theo chiều dọc */
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between items */
+    background-color:skyblue;
+    color:black;
+    padding: 10px 20px;
 }
 
-.menu-icon{
-    display: none; /* Ẩn icon menu */
+h1 {
+    margin: center; /* Remove default margin */
 }
 
+nav ul {
+    list-style-type: none; /* Remove default list style */
+}
+
+nav ul li {
+    display: inline-block; /* Display menu items inline */
+    margin-right: 10pc; /* Add some spacing between menu items */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
