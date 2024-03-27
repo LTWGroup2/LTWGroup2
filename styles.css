@@ -1,0 +1,16 @@
+.menu-links {
+    display: none; /* Ẩn menu links ban đầu */
+}
+
+.menu-links.active {
+    display: block; /* Hiển thị menu links khi có lớp active */
+}
+header {
+    display: flex; /* Sử dụng flexbox để căn chỉnh các phần tử con */
+    align-items: center; /* Căn chỉnh các phần tử con theo chiều dọc */
+}
+
+.menu-icon{
+    display: none; /* Ẩn icon menu */
+}
+
