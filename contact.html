@@ -30,62 +30,30 @@
         <div>
             <img src="img/Ảnh ST5.jpg" aria-label="">
         </div>
-        <section class="contact-section">
-            <div class="row">
-                <div class="col span-1-of-3">
-                    <ul class="information">
-                        <li><i class="fas fa-map-marker-alt"></i>Address: 21A, SelfTaught street, Ha Noi</li>
-                        <li><i class="fas fa-envelope"></i>Email: selftaughtteam@edu.com</li>
-                        <li><i class="fas fa-phone"></i>SĐT: (+084 )099-923-232-320</li>
-                    </ul>
-                    <ul class="social-icons">
-                        <li><i class="fab fa-facebook"></i></li>
-                        <li><i class="fab fa-twitter-square"></i></li>
-                        <li><i class="fab fa-instagram"></i></li>
-                        <li><i class="fab fa-google-plus-square"></i></li>
-                    </ul>
-                </div>
-                <div class="col span-2-of-3">
-                   <form>
-                       <div class="row">
-                           <div class="col span-1-of-3">
-                                <label>Name</label>
-                           </div>
-                           <div class="col span-2-of-3">
-                                <input type="text" placeholder="Your Name">
-                           </div>
-                       </div>
-                       <div class="row">
-                           <div class="col span-1-of-3">
-                                <label>Email</label>
-                           </div>
-                           <div class="col span-2-of-3">
-                                <input type="email" placeholder="Your Email">
-                           </div>
-                       </div>
-                       <div class="row">
-                           <div class="col span-1-of-3">
-                                <label>Message</label>
-                           </div>
-                           <div class="col span-2-of-3">
-                                <textarea  placeholder="Your Message"></textarea>
-                           </div>
-                       </div>
-                       <div class="row">
-                           <input type="submit" class="btn" value="Send It">
-                       </div>
-                   </form>
-                </div>
-            </div>
-        </section>
-
-    <body>
-        
+    </section>
+    <section id="contact-section">
+    <div class="contact-1">
+    <ul style="font-size:1.5cm;"> Conact Facebook
+        <li><a href="https://www.facebook.com/mtpyps.tungbinh">Nguyễn Thanh Tùng</li>
+        <li><a href="https://www.facebook.com/mtptown">MTP Entertainment</a></li>
+    </ul>
+    <ul style="font-size: 1.5cm;">Conact Gmail and SĐT
+        <li>booking@mtpentertainment.com </li>
+        <li>0927987919</li>
+    </ul>
+    <ul style="font-size: 1.5cm ;"> Conact website 
+        <li><a href="https://www.mtpentertainment.com/">MTP Entertainment</li>
+    </ul>
+    </div>
+    </section>
+    <div id="border"></div>
     
+<script>
+    // Lấy nội dung của phần và chèn vào rìa
+    var sectionContent = document.getElementById('contact-section').innerText;
+    document.getElementById('border').innerText = sectionContent;
+</script>
+</body>
 </html>
 
-=======
-    <!-- main.js -->
-    <script src="./script.js"></script>
-</body>
 
