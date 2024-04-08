@@ -11,7 +11,6 @@
 </head>
 
 <body>
-
     <header>
             <img src="img/mtp.png"
                 width="55"
@@ -26,33 +25,40 @@
             <a href="contact.html">Contact</a>
         </nav>
     </header>
-    <section>
+    <div id="content">
         <div>
             <img src="img/Ảnh ST5.jpg" aria-label="">
         </div>
-    </section>
-    <section id="contact-section">
-    <div class="contact-1">
-    <ul style="font-size:1.5cm;"> Conact Facebook
-        <li><a href="https://www.facebook.com/mtpyps.tungbinh">Nguyễn Thanh Tùng</li>
-        <li><a href="https://www.facebook.com/mtptown">MTP Entertainment</a></li>
-    </ul>
-    <ul style="font-size: 1.5cm;">Conact Gmail and SĐT
-        <li>booking@mtpentertainment.com </li>
-        <li>0927987919</li>
-    </ul>
-    <ul style="font-size: 1.5cm ;"> Conact website 
-        <li><a href="https://www.mtpentertainment.com/">MTP Entertainment</li>
-    </ul>
-    </div>
-    </section>
-    <div id="border"></div>
-    
-<script>
-    // Lấy nội dung của phần và chèn vào rìa
-    var sectionContent = document.getElementById('contact-section').innerText;
-    document.getElementById('border').innerText = sectionContent;
-</script>
+        <div class="contact-section">
+            <h2 class="section-heading">CONTACT</h2>
+            <p class="section-sub-healing">Fan? Drop a note!</p>
+            <div class="row contact-content" >
+                <div class="col col-half contact-info">
+                    <p><i class="ti-location-pin">Chicago</i></p>
+                    <p><i class="ti-email">sopnrubnrfegf</i></p>
+                    <p><i class="ti-mobile">9567456357846</i></p>
+                </div>
+                <div class="col col-half contact-form">
+                    <form action="">
+                        <div class="row">
+                            <div class="col col-half">
+                                <input type="text" name="" placeholder="Name" class="form-contro">
+                            </div>
+                            <div class="col col-half">
+                                <input type="email" name="" placeholder="Email" class="form-contro">
+                            </div>
+                        </div>
+                        <div class="row mt-8">
+                            <div class="col col-full">
+                                <input class="form-submit-btn  mt-16" type="text" name="" placeholder="Message" class="form-contro">
+                            </div>
+                        </div>
+                        <input type="submit" value="SEND">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div> 
 </body>
 </html>
 
