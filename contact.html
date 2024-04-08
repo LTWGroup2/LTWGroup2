@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sơn Tùng M-TP Portfolio</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/contact..css">
 </head>
 
 <body>
@@ -25,41 +25,40 @@
             <a href="contact.html">Contact</a>
         </nav>
     </header>
-    <div id="content">
-        <div>
-            <img src="img/Ảnh ST5.jpg" aria-label="">
-        </div>
-        <div class="contact-section">
-            <h2 class="section-heading">CONTACT</h2>
-            <p class="section-sub-healing">Fan? Drop a note!</p>
-            <div class="row contact-content" >
-                <div class="col col-half contact-info">
-                    <p><i class="ti-location-pin">Chicago</i></p>
-                    <p><i class="ti-email">sopnrubnrfegf</i></p>
-                    <p><i class="ti-mobile">9567456357846</i></p>
-                </div>
-                <div class="col col-half contact-form">
-                    <form action="">
-                        <div class="row">
-                            <div class="col col-half">
-                                <input type="text" name="" placeholder="Name" class="form-contro">
-                            </div>
-                            <div class="col col-half">
-                                <input type="email" name="" placeholder="Email" class="form-contro">
-                            </div>
-                        </div>
-                        <div class="row mt-8">
-                            <div class="col col-full">
-                                <input class="form-submit-btn  mt-16" type="text" name="" placeholder="Message" class="form-contro">
-                            </div>
-                        </div>
-                        <input type="submit" value="SEND">
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div> 
-</body>
-</html>
-
+    <section>
+        <img src="img/Ảnh ST5.jpg" >
+    </section>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <section class="contact-info">
+            <div class="info-item">
+                <h2><i class="ti-email">Email Us</i></h2>
+                <p>booking@mtpentertainment.com</p>
+              </div>
+          <div class="info-item">
+            <h2><i class="ti-location-pin">Location</i> </h2>
+            <p> Số 2, Toàn nhà Rosana, Số 60 Nguyễn Đình Chiểu, Phường Đa Kao</p>
+            <p>Quận1, TP Hồ Chí Minh, Việt Nam</p>
+          </div>
+          <div class="info-item">
+            <h2><i class="ti-mobile">Call Us</i></h2>
+            <p>(84) 092-798-7919</p>
+          </div>
+        </section>
+        <form action="#" class="contact-form">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" required>
+    
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" required></textarea>
+    
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    
+    </body>
+    </html>
 
