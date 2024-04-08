@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 120px;
+  background: #11141a;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+}
+
+body {
+  height: 1000vh;
+  background-color: #5f4d4d;
+}
+
+.logo {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  transition: 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: #0ef;
+}
+
+/*huyen chi*/
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Phông chữ Segoe UI */
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2; /* Màu xám nhạt */
+}
+.contact-section {
+  display: flex;
+  justify-content:space-between; /* Đẩy các phần tử ra hai bên */
+  max-width: 1500px;
+  margin: 30px auto;
+}
+
+.contact-info {
+  flex: 1;
+}
+
+.contact-form {
+  flex: 1;
+}
+
+.contact-info h2,
+.contact-form h2 {
+  font-size: 28px; /* Phông to hơn */
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-method {
+  margin-bottom: 10px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.contact-form h2 {
+  text-align: center;
+}
+
+.contact-form form {
+  padding: 14px;
+  background-color: #ffffff; /* Nền xám */
+  border: 1px solid #eee9e9; /* Đường viền màu trắng */
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng nâng cao */
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: calc(100% - 22px); /* Để trừ đi kích thước của đường viền */
+  padding: 10px; /* Phông to hơn */
+  border: 1px solid #ccc; /* Đường viền màu xám */
+  border-radius: 10px; /* Bo góc */
+  margin-bottom: 20px; /* Dãn cách giữa các trường */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Hiệu ứng khi focus */
+}
+
+.contact-form textarea {
+  height: 120px; /* Chiều cao của textarea */
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #3c81cb; /* Đổi màu đường viền khi focus */
+  box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.5); /* Hiệu ứng bóng khi focus */
+}
+
+.contact-form button {
+  background-color: #4c535c; /* Nút màu xanh da trời */
+  color: #fff;
+  border: none;
+  padding: 15px 30px; /* Phông to hơn */
+  border-radius: 10px; /* Bo góc */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Hiệu ứng màu nút khi hover */
+}
+
+.contact-form button:hover {
+  background-color: #315e8f; /* Màu xanh đậm khi di chuột qua */
+}
+
+@media (max-width: 768px) {
+  .contact-section {
+    flex-direction: column;
+  }
+  .contact-info,
+  .contact-form {
+    max-width: 100%; /* Tự động co dãn khi trên thiết bị nhỏ hơn */
+  }
+}
+.contact-background {
+  background-color: #fff; /* Màu nền trắng */
+  padding: 30px; /* Khoảng cách giữa phần contact và background */
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+.contact-info h2,
+.contact-form h2 {
+  font-size: 28px; /* Phông to hơn */
+  color: #333;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Hiệu ứng bóng */
+  font-family: "Marriweather", sans-serif;
+}
